@@ -48,7 +48,7 @@ detailed_mode_disabled.% :- false.
 % and give to students a file with the lines:
 %% Decomentați linia de mai jos pentru testare mai detaliată.
 %% ATENȚIE: pe vmchecker linia este comentată.
-%detailed_mode_disabled :- !, fail.
+detailed_mode_disabled :- !, fail.
 
 
 %test_points(show). % uncomment to show points in non-vmchecker mode.
